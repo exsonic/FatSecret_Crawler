@@ -131,6 +131,6 @@ class DBController(object):
     
 if __name__ == '__main__':
     db = DBController()
-    db.loadUserListToDB('userList_small.txt', True)    
+    db.loadUserListToDB('OriginalUsers.txt', True)
     
     
