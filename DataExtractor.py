@@ -29,9 +29,10 @@ class DataExtractor(object):
         
         br.open('http://www.fatsecret.com/Auth.aspx?pa=s')
         br.select_form(nr=0)
-        #name attr of login tr 
-        br['_ctl0:_ctl1:Logincontrol1:Name'] = 'exsonic'
-        br['_ctl0:_ctl1:Logincontrol1:Password'] = 'pbbfs2012'
+        #name attr of login tr
+        #PLEASE input your username and password here!!!!
+        br['_ctl0:_ctl1:Logincontrol1:Name'] = 'USERNAME'
+        br['_ctl0:_ctl1:Logincontrol1:Password'] = 'PASSWORD'
         br.submit()
         return br
     
