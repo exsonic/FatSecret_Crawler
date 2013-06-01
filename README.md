@@ -6,7 +6,7 @@ bobi.pu@usc.edu
 
 
 
-Before Run this program, please install:
+BEFORE RUN, PLEASE INSTALL:
 
 1.MongoDB on your local host, and use FatSecret as your db name.
 
