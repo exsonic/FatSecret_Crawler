@@ -3,6 +3,9 @@ Crawler for FatSecret.com
 Bobi Pu
 bobi.pu@usc.edu
 
+
+
+
 Before Run this program, please install:
 
 1.MongoDB on your local host, and use FatSecret as your db name.
@@ -13,6 +16,9 @@ Before Run this program, please install:
 
 4.FatSecret account, input your username and password in DataExtractor.py, login method.(line 34)
 
+
+
+
 HOW TO RUN:
 
 1.In the terminal console, change your current directory to source code folder.
@@ -22,6 +28,7 @@ HOW TO RUN:
 3.Execute command:"python crawl.py --help". It will show your how to run the crawler.
 
 4.Execute command:"python export.py --help". It will show you how to export the data from databse. 
+
 
 
 Note:
