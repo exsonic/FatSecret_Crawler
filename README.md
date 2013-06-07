@@ -1,8 +1,7 @@
 Crawler for FatSecret.com
 -------------------------
-Bobi Pu, bobi.pu@usc.edu
-------------------------
 
+Bobi Pu, bobi.pu@usc.edu
 
 
 BEFORE RUN, PLEASE INSTALL:
