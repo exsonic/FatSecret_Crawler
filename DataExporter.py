@@ -1,7 +1,7 @@
-'''
+"""
 Created on 2013-4-10
 @author: Bobi Pu, bobi.pu@usc.edu
-'''
+"""
 
 from DBController import DBController
 from datetime import datetime
@@ -119,7 +119,7 @@ class DataExporter(object):
                 with open(fileName, 'w') as f:
                     buddyIdList = sorted(user['buddy'])
                     for userId in buddyIdList:
-                        line = str(userId) + '\n'
+                        line = str(user['id']) + ' ' + str(userId) + '\n'
                         f.write(line)
             else:
                 with open(fileName, 'w') as f:
