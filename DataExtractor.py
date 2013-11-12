@@ -31,8 +31,8 @@ class DataExtractor(object):
         br.select_form(nr=0)
         #name attr of login tr
         #PLEASE input your username and password here!!!!
-        br['_ctl0:_ctl1:Logincontrol1:Name'] = 'USERNAME'
-        br['_ctl0:_ctl1:Logincontrol1:Password'] = 'PASSWORD'
+        br['_ctl0:_ctl7:Logincontrol1:Name'] = 'username'
+        br['_ctl0:_ctl7:Logincontrol1:Password'] = 'password'
         br.submit()
         return br
     
@@ -260,11 +260,6 @@ class DataExtractor(object):
     def getDecimalFromPercentageString(self, dataString):
         dataString = self.cleanNonNumercial(dataString)
         return float(self.cleanNonNumercial(dataString)) / 100 if dataString != '' else None
-        
-    
-if __name__ == '__main__':
-    de = DataExtractor()
-    de.getServerId(34890)
     
     
     
